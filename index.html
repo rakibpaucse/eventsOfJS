@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+    <link rel="stylesheet" href="s.css"/>
+    <title>JavaScript Events...</title>
+</head>
+<body>
+    
+        <p id="selectedMode" class="selectedMode"></p>
+        <select id="selectMode" class="selectMode" onchange="selectMode()">
+                <option value="Dark">Dark</option>
+                <option value="Light">Light</option>
+        </select>
+
+        <div class="makeLargeHolder">
+                <p>Double click to remove card.</p>
+        </div>
+
+
+    <div class="wrapper">
+        <div class="container">
+            <h1>Welcome</h1>
+            
+            <form class="form">
+                <input type="text" placeholder="Username" class="userName">
+                <input type="password" placeholder="Password">
+                <button type="submit" id="login-button">Login</button>
+            </form>
+
+            <div class="extras">
+                <span>Create a New Account</span>
+                <span>Forgot Password</span>
+            </div>
+
+        </div>
+        
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+ <script src="./app.js"></script>   
+</body>
+</html>
